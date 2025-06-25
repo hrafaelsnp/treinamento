@@ -42,7 +42,7 @@ const CONFIG = {
     },
     
     // Intervalo de atualização em milissegundos (55 segundos)
-    UPDATE_INTERVAL: 10000,
+    UPDATE_INTERVAL: 20000,
     
     // Configurações de formatação
     FORMAT: {
@@ -53,7 +53,7 @@ const CONFIG = {
     // Configurações de cache
     CACHE: {
         ENABLED: true,
-        DURATION: 30000  // 3 segundos (menor que o intervalo de atualização)
+        DURATION: 3000  // 3 segundos (menor que o intervalo de atualização)
     },
     
     // Configurações de desenvolvimento
